@@ -9,7 +9,7 @@ import Link from "gatsby-link"
 const IndexPage = () => (
   <HeroLayout>
     <SEO title="Home" />
-    <video autoPlay muted id="hero-video" playsInline className="">
+    <video autoPlay muted id="hero-video" playsInline className="" controls="false" poster="../images/poster2.jpg">
       <source src={StryboschFilms} type="video/webm" />
     </video>
     <Link to="/about">
