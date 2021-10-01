@@ -28,8 +28,8 @@ const AboutPage = () => (
         </p>
         <p className="mb-8 text-l mb-2">
           <h3 className="text-l font-bold mb-2">There are two parts to our puzzle.</h3>
-          <Link to="https://open.spotify.com/artist/2OOLZKc1j4FoOCHOgGbtRl?si=QApnAaO6TXqG7HQD3SRhZg&dl_branch=1">One</Link> is educated in world of film. <br />
-          <Link to="https://open.spotify.com/artist/484bfoveqgHfx2VhNY4zzT?si=lXJETF7UQY24s7BEiqFbgQ&dl_branch=1">The other </Link> is educated in the world of technology. <br />
+          <Link to="https://open.spotify.com/artist/2OOLZKc1j4FoOCHOgGbtRl?si=QApnAaO6TXqG7HQD3SRhZg&dl_branch=1" target="_blank" rel="noopener">One</Link> is educated in world of film. <br />
+          <Link to="https://open.spotify.com/artist/484bfoveqgHfx2VhNY4zzT?si=lXJETF7UQY24s7BEiqFbgQ&dl_branch=1" target="_blank" rel="noopener">The other </Link> is educated in the world of technology. <br />
           Together, the puzzle is solved.
           But the puzzle is never complete. 
           We are all learning, we can never stop learning, we will never stop improving. We will never stop. 
