@@ -42,7 +42,7 @@ const AboutPage = () => (
         <Link to="/portfolio">
           <button className="text-white bg-black py-2 px-4 mb-4 font-bold">See for yourself.</button>
         </Link>
-      </div>
+      </div>  
 
     </div>
 
