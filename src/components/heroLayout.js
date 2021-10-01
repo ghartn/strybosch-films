@@ -13,7 +13,7 @@
  const HeroLayout = ({ children }) => {
  
    return (
-     <div className="flex flex-col h-screen justify-between font-serif">
+     <div className="flex flex-col h-screen justify-between font-serif bg-black">
        <main className="mb-auto bg-black">{children}</main>
        <footer className="m-2 text-center">
          © {new Date().getFullYear()} Strybosch Films.

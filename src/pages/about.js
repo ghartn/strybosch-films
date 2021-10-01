@@ -10,7 +10,7 @@ const AboutPage = () => (
     <SEO title="About" />
     <h1 className="font-bold text-3xl mb-6">About us.</h1>
     <div className="flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2 relative h-48">
+      <div className="hidden sm:flex md:w-1/2 relative h-48">
         <StaticImage src="../images/1.jpg" alt="beautiful landscape" className="w-full md:w-1/2"/>
         <StaticImage src="../images/3.jpg" alt="beautiful boy" className="w-full md:w-1/2"/>
         <StaticImage src="../images/4.jpg" alt="beautiful boy 2" className="w-full md:w-1/2"/>
@@ -28,8 +28,8 @@ const AboutPage = () => (
         </p>
         <p className="mb-8 text-l mb-2">
           <h3 className="text-l font-bold mb-2">There are two parts to our puzzle.</h3>
-          <a href="https://open.spotify.com/artist/2OOLZKc1j4FoOCHOgGbtRl?si=QApnAaO6TXqG7HQD3SRhZg&dl_branch=1" target="_blank" rel="noopener">One</a> is educated in world of film. <br />
-          <a href="https://open.spotify.com/artist/484bfoveqgHfx2VhNY4zzT?si=lXJETF7UQY24s7BEiqFbgQ&dl_branch=1" target="_blank" rel="noopener">The other </a> is educated in the world of technology. <br />
+          <a href="https://open.spotify.com/artist/2OOLZKc1j4FoOCHOgGbtRl?si=QApnAaO6TXqG7HQD3SRhZg&dl_branch=1" target="_blank" rel="noreferrer">One</a> is educated in world of film. <br />
+          <a href="https://open.spotify.com/artist/484bfoveqgHfx2VhNY4zzT?si=lXJETF7UQY24s7BEiqFbgQ&dl_branch=1" target="_blank" rel="noreferrer">The other </a> is educated in the world of technology. <br />
           Together, the puzzle is solved.
           But the puzzle is never complete. 
           We are all learning, we can never stop learning, we will never stop improving. We will never stop. 
