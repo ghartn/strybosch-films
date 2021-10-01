@@ -6,7 +6,10 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1 className="font-bold text-xxl mb-6">Contact Us.</h1>
+    <h1 className="font-bold text-xxl mb-3">Contact Us.</h1>
+    <p className="mb-6">
+      Strybosch Films is located in the Vancouver area.
+    </p>
     <form method="post" action="https://getform.io/f/b8200889-a3a1-47d8-a831-6d905c5e8f26">
       <label className="font-bold">
         Name *
