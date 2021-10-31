@@ -10,8 +10,8 @@ const IndexPage = () => (
   <HeroLayout>
     <SEO title="Home" />
     <Link to="/about">
-      <div className className="absolute w-full h-full flex justify-center items-center">
-        <img id="enter-site" alt="logo" className="block w-72" src={logo} loading="eager" placeholder="tracedSVG"/>
+      <div className="absolute w-full h-full flex justify-center items-center">
+        <img id="enter-site" alt="logo" className="block" src={logo} loading="eager" placeholder="tracedSVG" width={200}/>
       </div>
     </Link>
   </HeroLayout>

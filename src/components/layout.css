@@ -33,8 +33,6 @@ a {
   animation-fill-mode: forwards;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
 }
 
 @keyframes fadeIn {

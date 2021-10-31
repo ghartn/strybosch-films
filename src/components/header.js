@@ -10,7 +10,7 @@ function Header({ siteTitle }) {
     <nav className="flex flex-wrap items-center justify-between p-6 border-b-2 border-gray-200 text-black mb-10">
       <div className="flex items-center flex-shrink-0 mr-8 text-black">
         <Link to="/">
-          <img alt="Strybosch Films" src={logo} className="block w-40" loading="eager" placeholder="tracedSVG" />
+          <img alt="Strybosch Films" src={logo} className="block" loading="eager" placeholder="tracedSVG" width={200}/>
         </Link>
       </div>
       <div className="block lg:hidden">
