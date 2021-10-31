@@ -4,14 +4,14 @@ import React from "react"
 import HeroLayout from "../components/heroLayout"
 import SEO from "../components/seo"
 import Link from "gatsby-link"
-import { StaticImage } from "gatsby-plugin-image"
+import logo from "../images/logo-w.png"
 
 const IndexPage = () => (
   <HeroLayout>
     <SEO title="Home" />
     <Link to="/about">
       <div className className="absolute w-full h-full flex justify-center items-center">
-        <StaticImage id="enter-site" className="block w-72" src="../images/logo-w.png" loading="eager" placeholder="tracedSVG"/>
+        <img id="enter-site" alt="logo" className="block w-72" src={logo} loading="eager" placeholder="tracedSVG"/>
       </div>
     </Link>
   </HeroLayout>
