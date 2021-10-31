@@ -10,11 +10,9 @@ const AboutPage = () => (
     <SEO title="About" />
     <h1 className="font-bold text-3xl mb-6">About us.</h1>
     <div className="flex flex-col md:flex-row">
-      <div className="hidden sm:flex md:w-1/2 relative h-48">
-        <StaticImage src="../images/1.jpg" alt="beautiful landscape" className="w-full md:w-1/2"/>
+      <div className="hidden xs:flex md:w-1/2 relative h-48">
         <StaticImage src="../images/3.jpg" alt="beautiful boy" className="w-full md:w-1/2"/>
         <StaticImage src="../images/4.jpg" alt="beautiful boy 2" className="w-full md:w-1/2"/>
-        <StaticImage src="../images/2.jpg" alt="beautiful landscape 2" className="w-full md:w-1/2"/>
       </div>
       <div className="w-full md:w-1/2 ml-0 md:ml-6">
         <h2 className="mb-6 text-xl font-bold">
