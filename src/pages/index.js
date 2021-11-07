@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Link to="/about">
       <div className="absolute w-full h-full flex justify-center items-center">
-        <img id="enter-site" alt="logo" className="block" src={logo} loading="eager" placeholder="tracedSVG" width={200}/>
+        <img id="enter-site" alt="logo" className="block" src={logo} loading="eager" placeholder="tracedSVG" style={{width: "200px"}}/>
       </div>
     </Link>
   </HeroLayout>
