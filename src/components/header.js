@@ -1,17 +1,16 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+import { NavLink } from "react-router-dom"
 import React, { useState } from "react"
-import logo from "../images/logo.png"
+import logo from "../img/logo.png"
 
-function Header({ siteTitle }) {
+function Header() {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 border-b-2 border-gray-200 text-black mb-10">
+    <nav className="flex flex-wrap items-center justify-between sm:p-6 p-2 border-b-2 border-gray-200 text-black mb-10">
       <div className="flex items-center flex-shrink-0 mr-8 text-black">
-        <Link to="/">
-          <img alt="Strybosch Films" src={logo} className="block" loading="eager" placeholder="tracedSVG" style={{width: "150px"}}/>
-        </Link>
+        <NavLink to="/about">
+          <img alt="Strybosch Films" src={logo} className="block w-24 sm:w-40" />
+        </NavLink>
       </div>
       <div className="block lg:hidden">
         <button
@@ -33,39 +32,28 @@ function Header({ siteTitle }) {
           } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="lg:flex-grow">
-          <Link
-            activeClassName="active-menu-link"
+          <NavLink
             to={`/about`}
             className="block mt-4 mr-6 text-black lg:inline-block lg:mt-0 hover:text-black"
           >
             About
-          </Link>
-          <Link
-            activeClassName="active-menu-link"
+          </NavLink>
+          <NavLink
             to={`/portfolio`}
             className="block mt-4 mr-6 text-black lg:inline-block lg:mt-0 hover:text-black"
           >
             Portfolio
-          </Link>
-          <Link
-            activeClassName="active-menu-link"
+          </NavLink>
+          <NavLink
             to={`/contact`}
             className="block mt-4 mr-6 text-black lg:inline-block lg:mt-0 hover:text-black"
           >
             Contact
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>
   )
-}
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
 }
 
 export default Header

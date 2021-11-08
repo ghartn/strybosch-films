@@ -1,21 +1,15 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Link from "gatsby-link"
-
-import  img3 from "../images/3.jpg";
-import  img4 from "../images/4.jpg";
+import { Link } from "react-router-dom"
+import ceo from "../img/3.jpg"
+import jb from "../img/4.jpg"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
     <h1 className="font-bold text-3xl mb-6">About us.</h1>
     <div className="flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2 ml-0 md:ml-6">
-        <h2 className="mb-6 text-xl font-bold">
-          Strybosch Films.
-        </h2>
+      <div className="w-full md:w-1/2 mr-0 md:mr-6">
         <p className="mb-8 text-l">
             We seek to find and achieve our meaning through film. <br/>
             We seek the clues. <br/>
@@ -39,7 +33,10 @@ const AboutPage = () => (
           <button className="text-white bg-black py-2 px-4 mb-4 font-bold">See for yourself.</button>
         </Link>
       </div>  
-
+      <div className="flex sm:block w-full mr-0 md:mr-6">
+        <img src={ceo} alt="the ceo of business" className="sm:p-4 sm:w-72 p-1 w-36"/>
+        <img src={jb} alt="jungle" className="sm:p-4 sm:w-72 p-1 w-36" />
+      </div> 
     </div>
 
 

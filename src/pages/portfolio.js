@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from "react-router-dom"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const PortfolioPage = () => (
   <Layout>
-    <SEO title="Portfolio" />
     <h1 className="font-bold text-xxl mb-6">Why read when you can watch?</h1>
     <p className="mb-6">Want us to make a video for you? Send us a message.
     </p>
