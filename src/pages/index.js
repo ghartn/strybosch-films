@@ -8,11 +8,10 @@ const IndexPage = () => (
   <HeroLayout>
     <Link to="/about">
       <div className="absolute w-full h-full flex justify-center items-center">
-        <div>
-        <img id="enter-site" alt="logo" className="sm:w-72 block w-36" src={logo}/>
-        <p className="mt-4 text-center text-white no-underline hover:text-white">enter site.</p>
+        <div id="enter-site">
+          <img  alt="logo" className="sm:w-72 block w-36" src={logo}/>
+          <p className="mt-6 text-center text-white no-underline hover:text-white uppercase wide-text text-sm text-opacity-70">enter site</p>
         </div>
-      
       </div>
     </Link>
   </HeroLayout>

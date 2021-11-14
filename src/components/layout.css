@@ -35,6 +35,10 @@ a {
 	animation-duration: 1s;
 }
 
+.wide-text {
+	letter-spacing: 0.5em;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
